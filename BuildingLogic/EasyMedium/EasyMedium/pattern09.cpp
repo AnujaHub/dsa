@@ -1,6 +1,8 @@
 #include<iostream>
 using namespace std;
 
+// T.C O(n²)
+
 // catch was to avoid printing middle row twice
 
 

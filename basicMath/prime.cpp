@@ -1,5 +1,7 @@
 #include <iostream> 
 using namespace std; 
+
+// T.C O(√n)
  
 int main() {
     int n ;

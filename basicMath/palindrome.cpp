@@ -1,6 +1,8 @@
 #include <iostream> 
 using namespace std; 
 
+// T.C O(log N)
+
 int main() {
 
     int orgNum = 1441, reverseNum=0 , num , n = orgNum;

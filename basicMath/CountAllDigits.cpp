@@ -1,6 +1,8 @@
 #include <iostream> 
 using namespace std; 
- 
+
+// T.C O(log N)
+
 int main() {
 
 int n , count = 0;

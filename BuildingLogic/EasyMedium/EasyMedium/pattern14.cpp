@@ -1,6 +1,7 @@
 #include <iostream> 
 using namespace std; 
 
+// T.C O(n²)
 
 // miskate i made : tried to print all A-Z 
 // new thing i learnt : 'A' + any num = 'A' , A being a  char

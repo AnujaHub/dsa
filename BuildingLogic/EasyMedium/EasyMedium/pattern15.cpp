@@ -1,6 +1,8 @@
 #include <iostream> 
 using namespace std; 
 
+// T.C O(n²)
+
 int main() {
 int n = 5;
 
