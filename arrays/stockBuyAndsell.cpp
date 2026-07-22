@@ -2,10 +2,15 @@
 using namespace std; 
  
 // T.C : O(n)
-// just make a table of price , minPrice , profit = price - minPrice , maxProfit and compare ouputs , you will understand the code.
-// initial mistake : got unnessarily stuck innto managing indexes which wasn't needed
-// you cannot sell before you buy 
-// make sure to compare prices daily and don't fix a min value at start..
+// Intuition:
+// Maintain the minimum stock price seen so far.
+// For each day, calculate the profit if the stock is sold today.
+// Update the maximum profit whenever a better profit is found.
+
+// Tip:
+// Make a table with:
+// Price | Min Price | Current Profit | Max Profit
+// to understand how the algorithm works.
 
 int main() {
 
@@ -31,4 +36,8 @@ int main() {
 
     }
 
-    
+
+// Mistake I made initially:
+// I got stuck trying to manage buying and selling indices.
+// That's unnecessary—tracking only the minimum price seen so far is enough.
+// Since we process the array from left to right, we can never sell before buying.
