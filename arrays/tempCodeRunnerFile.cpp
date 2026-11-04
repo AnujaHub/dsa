@@ -1,3 +1,2 @@
-for(int k=0 ; k<n ; k++){
-    //     cout<<arr[k]<<" ";
-    // }
+int Flargest = nums[0];
+//  int Slargest = -1;
